@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import GoogleMapReact from "google-map-react";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
@@ -18,3 +19,6 @@ const GoogleMap = () => (
 );
 
 export default GoogleMap;
+
+const wrapper = document.getElementById("container");
+wrapper ? ReactDOM.render(<GoogleMap/>, wrapper) : false;

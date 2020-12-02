@@ -1,2 +1,2 @@
 import "core-js/stable";
-import Form from "./js/components/Form";
+import GoogleMap from "./js/components/GoogleMap";
